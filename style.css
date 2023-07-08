@@ -119,10 +119,11 @@ nav a {
 }
 
 /* main sectiom */
-main{
+main {
     max-width: 1140px;
     margin: 0px auto;
 }
+
 /* about section */
 .about {
     border-radius: 10px;
@@ -136,9 +137,35 @@ main{
 .section-description {
     color: var(#757575);
     text-align: center;
-    
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.info-title,
+.info-des {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+}
+
+.info-des{
+    font-weight: bold;
+    color: #474747;
 }
